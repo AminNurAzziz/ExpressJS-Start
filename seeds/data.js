@@ -1,6 +1,6 @@
 // file: data.js
 
-const data = [
+const dataa = [
     {
       "id": 1,
       "name": "John Doe",
@@ -11,7 +11,27 @@ const data = [
       "name": "John Koe",
       "email": "asa",
     },
+    {
+      "id": 3,
+      "name": "John Koe",
+      "email": "asa",
+    },
+    {
+      "id": 3,
+      "name": "John Koe",
+      "email": "asa",
+    },
+    {
+      "id": 3,
+      "name": "John Koe",
+      "email": "asa",
+    },
+    {
+      "id": 3,
+      "name": "John Koe",
+      "email": "asa",
+    },
   ];
   
-  module.exports = data;
+  module.exports = dataa;
   

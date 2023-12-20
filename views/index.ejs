@@ -4,6 +4,25 @@
         <div class="alert alert-success" role="alert">
             <h4 class="alert-heading"><%= title %></h4>
             <p>ExpressJS Ready to Use</p>
+            <ul>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Name</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <% data_test.forEach((data, index) => { %>
+                        <tr>
+                            <td><%= index + 1 %></td>
+
+                            <td><%= data.name %></td>
+                        </tr>
+                        <% }); %>
+                    </tbody>
+                </table>
+            </ul>
         </div>
     </div>
 </div>

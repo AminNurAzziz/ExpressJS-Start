@@ -1,6 +1,9 @@
+const data = require('../seeds/data');
+
 class indexController {
     static async index(req, res, next) {
-        res.render('index', { title: 'Express' });
+        const data_test = data;
+        res.render('index', { title: 'Express', data_test });
     }
 }
 
